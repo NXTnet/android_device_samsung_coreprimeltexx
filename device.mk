@@ -52,10 +52,6 @@ TARGET_SCREEN_WIDTH := 480
 PRODUCT_AAPT_CONFIG := hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
-# For TWRP
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/twrp.fstab:recovery/root/etc/twrp.fstab
-
 # NFC packages
 PRODUCT_PACKAGES += \
     libnfc_nci \

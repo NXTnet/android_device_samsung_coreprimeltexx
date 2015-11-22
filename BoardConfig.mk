@@ -172,35 +172,11 @@ BOARD_SEPOLICY_UNION += \
 # Misc.
 TARGET_SYSTEM_PROP := device/samsung/coreprimeltexx/system.prop
 
-# TWRP
-# Display
-DEVICE_RESOLUTION := 480x800
-RECOVERY_GRAPHICS_USE_LINELENGTH := true
-TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
-TW_BRIGHTNESS_PATH := "/sys/devices/soc.0/1a00000.qcom\x2cmdss_mdp/qcom\x2cmdss_fb_primary.138/leds/lcd-backlight/brightness"
-TW_MAX_BRIGHTNESS := 255
-TW_NEW_ION_HEAP := true
-TW_TARGET_USES_QCOM_BSP := true
-
 # Keys
-BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/coreprimeltexx/recovery/recovery_keys.c
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 # Storage
 TARGET_RECOVERY_FSTAB := device/samsung/coreprimeltexx/rootdir/fstab.qcom
-TW_INTERNAL_STORAGE_PATH := "/data/media"
-TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
-TW_EXTERNAL_STORAGE_PATH := "/external_sd"
-TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
-TW_NO_USB_STORAGE := true
-TW_MTP_DEVICE := /dev/usb_mtp_gadget
-RECOVERY_SDCARD_ON_DATA := true
-
-# Misc.
-BOARD_RECOVERY_SWIPE := true
-TW_HAS_DOWNLOAD_MODE := true
-TW_NO_REBOOT_BOOTLOADER := true
-TARGET_RECOVERY_QCOM_RTC_FIX := true
 
 # Dex
 ifeq ($(HOST_OS),linux)
