@@ -24,7 +24,7 @@
 -include device/samsung/coreprimelte-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary version
--include vendor/samsung/coreprimelte/BoardConfigVendor.mk
+-include vendor/samsung/coreprimelte-common/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := coreprimelte,coreprimeltexx,SM-G360F
