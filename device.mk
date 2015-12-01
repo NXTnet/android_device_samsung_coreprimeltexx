@@ -14,7 +14,7 @@
 #
 
 # Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/a5ultexx/a5ultexx-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/coreprimeltexx/coreprimeltexx-vendor.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 800
