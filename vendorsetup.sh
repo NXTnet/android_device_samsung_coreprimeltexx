@@ -22,6 +22,8 @@
 #
 # 
 
-for i in eng userdebug user; do
-	add_lunch_combo cm_coreprimeltexx-${i}
-done
+#for i in eng userdebug user; do
+#	add_lunch_combo cm_coreprimeltexx-${i}
+#done
+
+add_lunch_combo cm_coreprimeltexx-userdebug
