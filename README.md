@@ -17,6 +17,10 @@
 | Camera                  | 5 MP(Back), 2MP(Front)            |
 | Release Date            | November 2014                     |
 
+![Samsung Galaxy Core Prime](http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-core-prime.jpg "Samsung Galaxy Core Prime in black")
+
+This branch is for building CyanogenMod 12.1 (or Android Lollipop 5.1 AOSP based roms) ROMS.
+
 ## Copyright
 
 #
