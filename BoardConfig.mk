@@ -30,8 +30,8 @@
 TARGET_OTA_ASSERT_DEVICE := coreprimelte,coreprimeltexx,SM-G360F
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogen_rossa_eur_defconfig
-#TARGET_KERNEL_CONFIG := msm8916_sec_defconfig
-#TARGET_KERNEL_TIMA_CONFIG := tima8916_defconfig
-#TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
-#TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_rossa_eur_defconfig
+#TARGET_KERNEL_CONFIG := cyanogen_rossa_eur_defconfig
+TARGET_KERNEL_CONFIG := msm8916_sec_defconfig
+TARGET_KERNEL_TIMA_CONFIG := tima8916_defconfig
+TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_rossa_eur_defconfig
